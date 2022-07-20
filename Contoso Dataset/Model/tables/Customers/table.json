@@ -1,0 +1,12 @@
+{
+  "name": "Customers",
+  "partitions": [
+    {
+      "name": "Customers-cb73ef19-f37f-477d-88a3-93c99bf41d7c",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

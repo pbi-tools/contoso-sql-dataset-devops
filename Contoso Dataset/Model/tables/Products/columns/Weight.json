@@ -1,0 +1,16 @@
+{
+  "name": "Weight",
+  "dataType": "double",
+  "sourceColumn": "Weight",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

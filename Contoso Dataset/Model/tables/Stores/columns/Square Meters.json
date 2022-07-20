@@ -1,0 +1,13 @@
+{
+  "name": "Square Meters",
+  "dataType": "int64",
+  "sourceColumn": "Square Meters",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

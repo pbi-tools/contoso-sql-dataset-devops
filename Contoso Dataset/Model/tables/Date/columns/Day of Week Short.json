@@ -1,0 +1,12 @@
+{
+  "name": "Day of Week Short",
+  "dataType": "string",
+  "sourceColumn": "Day of Week Short",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

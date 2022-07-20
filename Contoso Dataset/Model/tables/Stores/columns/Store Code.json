@@ -1,0 +1,13 @@
+{
+  "name": "Store Code",
+  "dataType": "int64",
+  "sourceColumn": "Store Code",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

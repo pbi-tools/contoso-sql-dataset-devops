@@ -1,0 +1,12 @@
+{
+  "name": "Sales",
+  "partitions": [
+    {
+      "name": "Sales-32897230-38d7-4a64-83fc-96d2d960fbfc",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

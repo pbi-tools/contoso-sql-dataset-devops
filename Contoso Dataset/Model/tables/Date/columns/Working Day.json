@@ -1,0 +1,13 @@
+{
+  "name": "Working Day",
+  "dataType": "boolean",
+  "sourceColumn": "Working Day",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

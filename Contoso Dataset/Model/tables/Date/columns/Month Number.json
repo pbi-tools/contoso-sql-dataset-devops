@@ -1,0 +1,13 @@
+{
+  "name": "Month Number",
+  "dataType": "int64",
+  "sourceColumn": "Month Number",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

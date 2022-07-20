@@ -1,0 +1,93 @@
+{
+  "name": "Contoso Dataset",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-GB",
+    "relationships": [
+      {
+        "name": "14e43681-a6e8-436b-849f-96a7486cb486",
+        "fromTable": "Sales",
+        "fromColumn": "CustomerKey",
+        "toTable": "Customers",
+        "toColumn": "CustomerKey"
+      },
+      {
+        "name": "deb457e6-cd40-4a01-b601-f5a05ebafb35",
+        "fromTable": "Sales",
+        "fromColumn": "ProductKey",
+        "toTable": "Products",
+        "toColumn": "ProductKey"
+      },
+      {
+        "name": "427e149b-8208-4dab-89de-410342bc0886",
+        "fromTable": "Sales",
+        "fromColumn": "StoreKey",
+        "toTable": "Stores",
+        "toColumn": "StoreKey"
+      },
+      {
+        "name": "b878c8e0-8efe-4b89-a14c-2e2841ac94f5",
+        "fromTable": "Sales",
+        "fromColumn": "Order Date",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "a6fe37d7-7a7d-4c91-870d-d216ec99c74f",
+        "fromTable": "Sales",
+        "fromColumn": "Delivery Date",
+        "toTable": "Date",
+        "toColumn": "Date",
+        "isActive": false
+      }
+    ],
+    "expressions": [
+      {
+        "name": "[SQL Server]",
+        "kind": "m",
+        "queryGroup": "Parameters"
+      },
+      {
+        "name": "[SQL Database]",
+        "kind": "m",
+        "queryGroup": "Parameters"
+      },
+      {
+        "name": "[SQL Schema]",
+        "kind": "m",
+        "queryGroup": "Parameters"
+      }
+    ],
+    "queryGroups": [
+      {
+        "folder": "Parameters",
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.107.683.0 (22.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"[SQL Server]\",\"[SQL Database]\",\"Currency Exchange\",\"Customers\",\"Date\",\"Products\",\"Sales\",\"Stores\",\"[SQL Schema]\"]"
+      }
+    ]
+  }
+}

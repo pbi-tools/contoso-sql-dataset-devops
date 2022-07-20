@@ -1,0 +1,117 @@
+{
+  "name": "09e880839cccd16b32fb",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 32,
+        "y": 32,
+        "z": 0,
+        "width": 960,
+        "height": 288
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sales.Sales Amount"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "Products.Products Hierarchy.Category",
+          "active": true
+        },
+        {
+          "queryRef": "Products.Products Hierarchy.Subcategory"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "Customers.Continent",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "Sales",
+          "Type": 0
+        },
+        {
+          "Name": "p",
+          "Entity": "Products",
+          "Type": 0
+        },
+        {
+          "Name": "c",
+          "Entity": "Customers",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Sales Amount"
+          },
+          "Name": "Sales.Sales Amount"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Products Hierarchy"
+              }
+            },
+            "Level": "Category"
+          },
+          "Name": "Products.Products Hierarchy.Category"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "p"
+                  }
+                },
+                "Hierarchy": "Products Hierarchy"
+              }
+            },
+            "Level": "Subcategory"
+          },
+          "Name": "Products.Products Hierarchy.Subcategory"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "c"
+              }
+            },
+            "Property": "Continent"
+          },
+          "Name": "Customers.Continent"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Currency Exchange",
+  "isHidden": true,
+  "partitions": [
+    {
+      "name": "Currency Exchange-4e1e6929-107c-46cc-a092-d063b4d0192b",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

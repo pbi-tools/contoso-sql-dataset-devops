@@ -1,0 +1,12 @@
+{
+  "name": "Products",
+  "partitions": [
+    {
+      "name": "Products-b63b410f-9ddb-4a3a-bbcb-996ab12ce58c",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

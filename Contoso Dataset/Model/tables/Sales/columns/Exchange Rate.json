@@ -1,0 +1,16 @@
+{
+  "name": "Exchange Rate",
+  "dataType": "double",
+  "sourceColumn": "Exchange Rate",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

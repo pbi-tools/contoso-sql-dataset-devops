@@ -1,0 +1,13 @@
+{
+  "name": "Order Number",
+  "dataType": "int64",
+  "sourceColumn": "Order Number",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

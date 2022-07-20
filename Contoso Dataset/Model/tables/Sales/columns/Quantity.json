@@ -1,0 +1,13 @@
+{
+  "name": "Quantity",
+  "dataType": "int64",
+  "sourceColumn": "Quantity",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

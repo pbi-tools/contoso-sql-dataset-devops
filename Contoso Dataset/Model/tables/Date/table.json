@@ -1,0 +1,13 @@
+{
+  "name": "Date",
+  "dataCategory": "Time",
+  "partitions": [
+    {
+      "name": "Date-2e0b0d3f-f820-4d2d-b615-0616195a29f7",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

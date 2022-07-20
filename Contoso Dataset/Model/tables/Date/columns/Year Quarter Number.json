@@ -1,0 +1,13 @@
+{
+  "name": "Year Quarter Number",
+  "dataType": "int64",
+  "sourceColumn": "Year Quarter Number",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

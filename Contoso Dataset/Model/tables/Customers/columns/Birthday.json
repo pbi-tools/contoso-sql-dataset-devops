@@ -1,0 +1,13 @@
+{
+  "name": "Birthday",
+  "dataType": "dateTime",
+  "sourceColumn": "Birthday",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

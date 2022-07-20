@@ -1,0 +1,17 @@
+{
+  "name": "ToCurrency",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "ToCurrency",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

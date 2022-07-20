@@ -1,0 +1,12 @@
+{
+  "name": "Quarter",
+  "dataType": "string",
+  "sourceColumn": "Quarter",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

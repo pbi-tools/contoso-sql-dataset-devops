@@ -1,0 +1,12 @@
+{
+  "name": "Stores",
+  "partitions": [
+    {
+      "name": "Stores-5c5c3747-772e-4093-9c70-d3f9dcd881fb",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

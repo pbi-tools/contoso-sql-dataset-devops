@@ -1,0 +1,12 @@
+{
+  "name": "Month Short",
+  "dataType": "string",
+  "sourceColumn": "Month Short",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

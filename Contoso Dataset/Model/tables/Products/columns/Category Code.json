@@ -1,0 +1,17 @@
+{
+  "name": "Category Code",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "Category Code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

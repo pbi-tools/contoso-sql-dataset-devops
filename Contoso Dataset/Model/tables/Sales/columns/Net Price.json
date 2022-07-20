@@ -1,0 +1,17 @@
+{
+  "name": "Net Price",
+  "dataType": "decimal",
+  "sourceColumn": "Net Price",
+  "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-GB\"}"
+    }
+  ]
+}
