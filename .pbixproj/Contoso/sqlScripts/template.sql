@@ -1,0 +1,6 @@
+CREATE VIEW $schema$.[%%SCRIPT_NAME%%]
+AS
+
+%%SCRIPT_CONTENT%%
+
+GO

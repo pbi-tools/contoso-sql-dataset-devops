@@ -2,5 +2,7 @@
 *.pbit
 *.bim
 
+/.artifacts/
+
 query.json
 dataTransforms.json
